@@ -1,0 +1,20 @@
+Raspberry:
+---------------------------
+
+> cd pistreaming/
+> python3 server.py &
+
+
+
+
+
+Client:
+--------------------------
+
+browser-> http://[RSPI IP]:8082/index.html
+
+
+
+
+
+(https://github.com/waveform80/pistreaming)

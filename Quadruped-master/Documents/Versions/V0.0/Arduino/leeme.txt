@@ -1,0 +1,16 @@
+-Main es el programa principal que controla el robot i procesa los comandos recibidos por USB desde la raspberry.
+
+-Cuando un comando recibido es procesado, se envia una señal ("1") para indicar que arduino se encuantra listo
+ para recivir uno nuevo.
+
+-Cada comando tien una cabezera y un cuerpo, que indican el tipo de accion y sus valores.
+ Cada comando debe acabar con ";" para indicar el final del mensaje.
+ Las cabezeras (Header) son de 2 caracteres y estan seguidas de uno o varios valores:
+
+	
+	Accion				   | Header/body	     					      		|     Ejemplo
+	------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+	Establecer angulos de la camara    |    cc xxxyyy   (xxx = angulo horizontal, yyy = angulo vertical)  		|   cc180090; (Mueve la camara a 180º y 90º)
+	Establecer modo autonomo o manual  |    md x	    (x=a-> autonomo, x=m-> manual)		      		|   mda;  (Modo autonomo)
+	Mover un paso el robot		   |    mv xy	    (x=0->izq., x=1->recto, x=2->der., x=3->atras,, y=velocidad)|   mv12; (Mover adelante a velocidad 2)
+	Rotar el robot 45º		   |    rr x        (x=0->izquierda, x=1->derecha)				|   rr1;  (Rotar 45º a la derecha)

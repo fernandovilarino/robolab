@@ -1,0 +1,12 @@
+GUI-GimbalControl  permite controlar los servos de la camara a traves de una conexión UDP
+------------------------------------------------
+Requerimientos:
+	- Python 2.7
+	- PySerial
+	- Tkinter
+------------------------------------------------
+Para ejecutar:
+	python GUI-GimbalControl.py
+
+
+(Para cambiar la ip y puerto de la raspberry, modificar la linea 143)

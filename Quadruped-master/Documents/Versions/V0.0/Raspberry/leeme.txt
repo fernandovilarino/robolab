@@ -1,0 +1,22 @@
+===================================================================================================
+Ejecutar udp2serial.py en raspberry para iniciar el servidor UDP que controlara el Arduino
+------------------------------------------------
+Requerimientos:
+	- Python 2.7
+	- PySerial
+------------------------------------------------
+Para ejecutar:
+	python udp2serial.py [ipRaspberry] [puerto]
+===================================================================================================
+
+===================================================================================================
+Para iniciar el streaming de la camara via web, ejecutar server.py en ~/pistreaming
+El video sera accesible desde  http://[RSPI IP]:8082/index.html
+------------------------------------------------
+Requerimientos:
+	- Python 3
+	- Pistreaming (https://github.com/waveform80/pistreaming)
+------------------------------------------------
+Para ejecutar:
+	cd pistreaming/
+	> python3 server.py &

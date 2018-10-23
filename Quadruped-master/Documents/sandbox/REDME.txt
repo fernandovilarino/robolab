@@ -1,0 +1,16 @@
+This is where you will find all the code of this project
+
+Control: It have the python program that must be runed in the computer
+
+Leg-Controller: It have a python program used to control only the legs of the robot.
+
+pythonGUI: It contains a test program used on the robot
+
+raspiServer: It contains the code that must be runing in the robot.
+
+ServoControl: Contains the code that must be runing in the arduino
+
+TestLeg: Contains some code to test the servos in arduino
+
+
+

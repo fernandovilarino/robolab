@@ -8,34 +8,34 @@ Robot cuadrúpedo hecho con arduino y rasperry pi. Entre los dispositivos utiliz
 <img src="Documents/sandbox/quad.png" width="350"/>
 
 It follows the next structure:
--Documents
-	-3D parts
+- Documents
+	- 3D parts
 		Where you can find the pices in 3D used to make the robot
-	-budget
+	- budget
 		You can find excel sheets with all the components used.
-	-org
+	- org
 		You'll find the cass diagrams of the code
-	-pics
+	- pics
 		Som pictures of the project
-	-sandbox
+	- sandbox
 		Here is where you'll find all the code of the project
-	-uml
+	- uml
 		Class diagrams in asta
-	-versions
+	- versions
 		It contains some previous versions of the code
-	-videos
+	- videos
 		Contains two videos of the robot in use
-	-fritzing (fzz/img)
+	- fritzing (fzz/img)
 		Are the fritzing diagram of the electric components
 
--Instructable
+- Instructable
 	It contains an instructable to be able to use the robot and know what it does
 
--Memory
+- Memory
 	It contains the memory of the project, the steps followed in order to make this robot.
 
--src
+- src
 	It contains libreries and some useful code.
 	
--Tests
+- Tests
   It contains some tests to chech the components.
